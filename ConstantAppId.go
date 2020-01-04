@@ -8,4 +8,8 @@
 
 package Common
 
-const REPORT_APP_ID int8 = 0
+const (
+	REPORT_APP_ID        int8 = 0
+	REPORT_BY_POST_ID    int8 = 1
+	REPORT_BY_COMMENT_ID int8 = 2
+)
